@@ -1,0 +1,355 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+.container
+{
+    justify-content: center;
+}
+header .header-box
+{
+    background: #000;
+}
+.navbar-brand
+{
+    color:white;
+}
+.navbar-brand:hover
+{
+color: #dc143c;
+transition: 0.5s;
+}
+.nav-link
+{
+    color:#dc143c;
+}
+.nav-link:hover
+{
+    color: white;
+    transition: 0.5s;
+}
+nav i
+{
+    color: #dc143c;
+}
+/*nav close*/
+header .wel-box
+{
+    
+    
+    background: #000;
+    border-top: 1px solid rgba(128, 128, 128, 0.247);
+    border-bottom: 2px solid rgba(128, 128, 128, 0.11); ;
+    
+}
+header .wel
+{
+    margin-top: 220px;
+    margin-bottom: 100px;
+}
+header img
+{
+    height: 300px;
+    margin-left: 40px;
+}
+header h1
+{
+    text-align: center;
+    font-size: 40px;
+    color: #dc143c;
+}
+header p
+{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 18px;
+    color: thistle;
+}
+header .button
+{
+    height: 45px;
+    width: 145px;
+    border-radius: 25px;
+    color: white;
+    background-color:transparent;
+    border: 2px solid #dc143c;
+    margin-left: 38%;
+    margin-top: 40px;
+    margin-bottom: 138px;
+}
+header .button:hover
+{
+    background-color:#dc143c;
+    border: 2px solid #dc143c;
+    transition: 0.5s;
+
+}
+
+/*header close */
+/*About section*/
+.about
+{
+    background-color: white;
+    padding-top: 80px;
+    padding-top: 100px;
+    padding-bottom: 120px;
+}
+section .about-box
+{
+    
+    background-color: #222222;
+    margin-top: 20px;
+}
+section  h1
+{
+    text-align: center;
+    color:#222222;
+}
+section .about-box img
+{
+    height: 340px;
+    margin-top: 80px;
+    margin-left: 50px;
+}
+section .about-box h2
+{
+    color: #dc143c;
+    margin-top: 100px;
+}
+section  h6
+{
+    text-align: center;
+    color: #dc143c;
+    font-size: 20px;
+}
+section .about-box p
+{
+    margin-top: 20px;
+    color: thistle;
+}
+section .about-box button
+{
+    height: 45px;
+    width: 145px;
+    border-radius: 25px;
+    color: white;
+    background-color:#dc143c;
+    border: 2px solid #dc143c;
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+section .about-box button:hover
+{
+    background-color:transparent;
+    border: 2px solid #dc143c;
+    transition: 0.5s;
+}
+/*service section */
+section .container
+{
+    justify-content: center;
+}
+section .service-box
+{
+    
+    background: #000;
+    margin-top: 100px;
+   
+}
+section .service-box h1
+{
+    text-align: center;
+    color: white;
+    padding-top: 100px;
+    
+}
+section .service-box h6
+{
+ text-align: center;
+ margin-top: 15px;
+}
+section .service-boxin
+{
+    height: 284px;
+    width: 320px;
+    background-color:#222222;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 18px;
+    border-radius: 15px;
+    
+    
+}
+section  a
+{
+    text-decoration: none;
+}
+
+section  .service-boxin:hover
+{
+    
+    background-color: #dc143c;
+    transition: 0.5s;
+    color: white;
+}
+section .service-boxin i
+{
+    color:white;
+    font-size: 50px;
+    margin-top: 30px;
+}
+
+.i-con
+{
+    display: flex;
+    justify-content: center;
+}
+section .service-boxin h2
+{
+    color:wheat;
+    text-align: center;
+  
+}
+section .service-boxin p
+{   
+    color:thistle;
+    text-align: center;
+}
+/*design section*/
+section .h1-design
+{
+    color: #dc143c;
+    margin: 70px 0px;
+    padding-bottom: 20px;
+}
+section .design-box
+{   
+    padding: 0px 100px;
+    background-color:black;
+    margin-top: 80px;
+}
+section .design-boxin
+{
+    padding: 60px 0px;
+}
+section .card-body
+{
+    background-color: #222222;
+    border: none;
+}
+section .card-img-top
+{
+    background-color: #222222;
+}
+section .card-title
+{
+    color: #dc143c;
+}
+section .card-text
+{
+    color: thistle;
+}
+section .btn 
+{
+    color: white;
+    background-color: #dc143c;
+    border-radius: 25px;
+}
+section .btn:hover
+{
+    background-color: transparent;
+    border: 2px solid #dc143c;
+    color: white;
+    transition: 0.5s;
+}
+/*artical box*/
+article.article-box
+{
+    background-color:#e0e2df;
+    border: 1px solid black;
+    padding: 60px 0px;
+}
+article.article-box h1
+{
+    text-align: center;
+    margin-top: 50px;
+    
+}
+form
+{
+    margin-top: 80px;
+}
+input:focus
+{
+    outline: none;
+}
+ form input
+{
+    display: block;
+    margin-top: 15px;
+    height: 45px;
+    width: 500px;
+    padding-left: 10px;
+    border-radius: 15px;
+    border: none;
+}
+::placeholder
+{
+    color: #000;
+}
+article.article-box button
+{
+    height: 45px;
+    width: 145px;
+    border-radius: 25px;
+    color: white;
+    background-color:black;
+    margin-top: 40px;
+    margin-bottom: 138px;
+}
+article.article-box button:hover
+{
+    background-color: #dc143c;
+    transition: 0.5s;
+}
+.art-box-border
+{
+    margin-top: 80px;
+}
+article.article-box .art-box
+{
+    display: flex;
+    align-items: center;
+    height: 45px;
+    width: 500px;
+    margin-top: 15px;
+    padding-left: 10px;
+    border-radius: 15px;
+    background-color: white;
+    
+}
+article.article-box .art-box .art-boxin
+{
+    padding-left: 5px;
+}
+article.article-box .art-box .art-boxin .i
+{
+    padding: 0px 5px;
+}
+/*footer*/
+footer.fot-box
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    padding: 30px 0px;
+}
+footer.fot-box h5
+{
+    color:#dc143c;
+    font-size: 15px;
+}
